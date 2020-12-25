@@ -1,0 +1,47 @@
+/* general setup */
+
+:root {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+    background-color: white;
+}
+
+.change {
+    background-color: inherit;
+    border-radius: 0.5rem;
+    border: 1px black solid;
+    font-size: 2rem;
+
+    width: 15rem;
+    height: 5rem;
+    transition: content 2s;
+}
+
+.change::before {
+    content: "</";
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.change::after {
+    content: ">";
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.change:hover::before,
+.change:hover::after {
+    opacity: 1;
+}
