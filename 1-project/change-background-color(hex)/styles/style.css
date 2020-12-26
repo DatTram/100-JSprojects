@@ -1,1 +1,42 @@
+/* General setup */
+
+:root {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100vw;
+    height: 100vh;    
+    margin: 0;
+
+    background-color: #ffffff;
+}
+
+.box {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.change {
+    background-color: inherit;
+    border: 1px black solid;
+    border-radius: 1rem;
+    font-size: 2rem;
+
+    width: 15rem;
+    height: 4em;
+
+}
+
+
 
