@@ -1,5 +1,5 @@
 # 100-JSprojects
-Building 100 projects to become a proficient JS programmer.
+Building 100 different projects to become a proficient JS programmer.
 
 # Rules
 
