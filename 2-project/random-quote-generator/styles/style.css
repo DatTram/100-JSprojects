@@ -1,1 +1,59 @@
+/* General setup */
 
+:root {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    
+    background-color: grey;
+    width: inherit;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin-top: 5rem;
+    width: 50rem;
+    padding: 5rem;
+
+    background-color: rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+p {
+
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: right;
+}
+
+.quote-left {
+    width: 5rem;
+    height: 5rem;
+
+    float: left; 
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+button {
+    width: 15rem;
+}
+
+a:link {
+    color: lightblue;
+}
