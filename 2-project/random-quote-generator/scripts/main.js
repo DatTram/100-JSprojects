@@ -2,7 +2,7 @@ function generate() {
     fetch("https://quotes15.p.rapidapi.com/quotes/random/", {
 	"method": "GET",
 	"headers": {
-		"x-rapidapi-key": "bfea68e228mshc2194e5071128eep11229cjsn71f3ed733672",
+		"x-rapidapi-key": "censored",
 		"x-rapidapi-host": "quotes15.p.rapidapi.com"
 	}
     })
