@@ -1,1 +1,131 @@
+/* General setup */
 
+:root {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: inherit;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+/* box */
+
+.inner-box {
+    display: flex;
+
+    align-items: center;
+    flex-direction: row;
+}
+
+.box {
+    width: 60em;
+    height: 70rem;
+
+    border: 1px solid white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.right,
+.left {
+    width: 5rem;
+    height: 5rem;
+
+    background-color: white;
+    transition: background-color 1s;
+}
+
+.right:hover,
+.left:hover {
+    background-color: lightskyblue;
+}
+
+.arrow {
+    width: inherit;
+    height: inherit;
+}
+
+/* testimonial */
+
+.round {
+    width: 20rem;
+    height: 20rem;
+
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+
+
+}
+
+.stars {
+    width: 22rem;
+    height: 4rem;
+}
+
+.quote {
+    padding: 0;
+    font-size: 5rem;
+
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+    color: black;
+}
+
+.star {
+    width: 4rem;
+    height: inherit;
+}
+
+img {
+    width: 6rem;
+    height: 6rem;
+}
+
+p {
+    font-size: 1.6rem;
+    padding: 2rem;
+    margin: 0;
+    text-align: center;
+
+    line-height: 1.6;
+}
+
+h1 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;   
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    margin-top: 3rem;
+    font-size: 2.5rem;
+}
+
+/* mobile version */
+
+@media only screen and (max-width: 400px) {
+    .box {
+        width: 20rem;
+        height: 100rem;
+    }
+}
