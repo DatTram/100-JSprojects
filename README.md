@@ -7,4 +7,4 @@ Building 100 different projects to become a proficient JS programmer.
 2. Only vanilla JS with HTML and CSS (CSS frameworks and preprocessors are allowed).
 3. APIs are allowed.
 
-free to use 
+Free to use my projects
