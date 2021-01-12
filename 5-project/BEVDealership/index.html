@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEV Car Dealearship</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">  
+    <script src="https://kit.fontawesome.com/cc8909fc7f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1 class="home"><i class="fas fa-bolt"></i> BEV Vehicle Dealearship</h1>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <div class="inner-nav">
+                <div class="search">
+                    <div class="search-outer"><i class="fas fa-search"></i>    Search Cars</div>
+                    <input type="text" name="search" class="search-inner" placeholder="Search Cars" onkeyup="searchCards()">
+                    <h2 class="car"><i class="fas fa-car"></i>  Cars</h2>
+                <div class="line"></div>
+                </div>
+                <div class="brands">
+                    <h3>Brands</h3>
+                    <select class="menu" onchange="select()">
+                        <option value="Everything">Everything</option>
+                        <option value="Tesla">Tesla</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Volkswagen">Volkswagen</option>
+                        <option value="Audi">Audi</option>
+                        <option value="Porsche">Porsche</option>
+                    </select>
+                </div>
+                <div class="features">
+                    <h3>Features</h3>
+                    <form>
+                        <input type="checkbox" id="hatchback" name="hatchback" value="hatchback" onchange="typeSort(this)" autocomplete="off">
+                        <label for="hatchback"> Hatchback</label><br>
+                        <input type="checkbox" id="sedan" name="sedan" value="sedan" onchange="typeSort(this)" autocomplete="off">
+                        <label for="sedan"> Sedan</label><br>
+                        <input type="checkbox" id="SUV" name="SUV" value="SUV" onchange="typeSort(this)" autocomplete="off">
+                        <label for="SUV"> SUV</label><br>
+                        <input type="checkbox" id="MPV" name="MPV" value="MPV" onchange="typeSort(this)" autocomplete="off">
+                        <label for="MPV"> MPV</label><br>
+                        <input type="checkbox" id="truck" name="truck" value="truck" onchange="typeSort(this)" autocomplete="off">
+                        <label for="truck"> Truck</label><br><br>
+                      </form>
+                </div>
+                <div class="rating">
+                    <h3>Rating</h3>
+                    <p class="empty">Empty</p>
+                    <form>
+                        <input type="radio" id="five" name="star" value="5" onchange="ratingSort(this)" autocomplete="off">
+                        <label for="five"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></label>
+                        <br><input type="radio" id="four" name="star" value="4" onchange="ratingSort(this)" autocomplete="off">
+                        <label for="four"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></i> and more</label>
+                        <br><input type="radio" id="three" name="star" value="3" onchange="ratingSort(this)" autocomplete="off">
+                        <label for="three"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i> and more</label>
+                        <br><input type="radio" id="two" name="star" value="2" onchange="ratingSort(this)" autocomplete="off">
+                        <label for="two"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i> and more</label>
+                        <br><input type="radio" id="one" name="star" value="1" onchange="ratingSort(this)" autocomplete="off">
+                        <label for="one"><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i> and more</label>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="slider">
+                <div class="frame">
+                    <h3 class="feature-title">Featured</h3>
+                    <div class="window">
+                        <div class="left" onclick="left()"><i class="fas fa-angle-left"></i></div>
+                        <div class="image">
+                            <div class="image-desc">
+                                <div class="test">
+                                    
+                                </div>
+                                <div class="test2">
+                                    <h3 class="desc-title">Car brand</h3>
+                                    <p class="desc-model"></p>
+                                    <p class="desc-price">Price: </p>
+                                    <p class="desc-rating">Rating: </p>
+                                    <p class="desc-year">Year: </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right" onclick="right()"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                    <div class="balls">
+                        <div class="ball one"></div>
+                        <div class="ball two"></div>
+                        <div class="ball three"></div>
+                        <div class="ball four"></div>
+                        <div class="ball five"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                
+            </div>
+        </div>
+    </main>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
 
