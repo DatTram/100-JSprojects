@@ -1,3 +1,15 @@
+# BEVDealership
+
+A store page where you can find your future electric vehicle with filtering (type sort, rating sort and searchbar). 
+
+# Need to do 
+
+Add a money slider
+
+Refactor code
+
+Add more vehicles
+
 # Credits
 
 https://en.wikipedia.org/wiki/Tesla_Cybertruck#/media/File:Tesla_Cybertruck_outside_unveil_modified_by_Smnt.jpg https://creativecommons.org/licenses/by-sa/4.0/ by https://www.reddit.com/user/Kruzat
@@ -23,16 +35,3 @@ https://en.wikipedia.org/wiki/Chevrolet_Bolt#/media/File:2017_Chevrolet_Bolt_EV_
 https://en.wikipedia.org/wiki/Tesla_Model_X#/media/File:2017_Tesla_Model_X_100D_Front.jpg CC BY-SA 4.0 by https://commons.wikimedia.org/wiki/User:Vauxford
 
 Fonts from Google API and FontAwesome.
-
-# BEVDealership
-
-A store page where you can find your future electric vehicle with filtering (type sort, rating sort and searchbar). 
-
-# Need to do 
-
-Add a money slider
-
-Refactor code
-
-Add more vehicles
-
