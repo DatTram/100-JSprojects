@@ -1,3 +1,5 @@
+![alt text](https://github.com/DatTram/100-JSprojects/blob/main/5-project/BEVDealership/screenshots/BEV.png)
+
 # BEVDealership
 
 A store page where you can find your future electric vehicle with filtering (type sort, rating sort and searchbar). 
