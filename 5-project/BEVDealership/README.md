@@ -1,5 +1,7 @@
 ![alt text](https://github.com/DatTram/100-JSprojects/blob/main/5-project/BEVDealership/screenshots/BEV.png)
 
+web design inspired by google's web extension store (https://chrome.google.com/webstore/category/extensions)
+
 # BEVDealership
 
 A store page where you can find your future electric vehicle with filtering (type sort, rating sort and searchbar). 
