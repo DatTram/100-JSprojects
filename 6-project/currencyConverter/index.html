@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body> 
+    <div class="container max">
+        <div class="container center">
+            <div><h1>Currency Converter</h1></div>
+            <div class="line-break"></div>
+            <form class="form-one">
+                <label class="input-currency"></label>
+                <select class="menu" onchange="conversionInput()">
+        
+                </select>
+                <input class="input" type="text" placeholder="0" onkeyup="conversionInput()">
+            </form>
+            <button type="button" onclick="swap()" class="btn">Swap</button>
+            <form class="form-two">
+                <label class="output-currency"></label>
+                <select class="menu2" onchange="conversionInput()">
+        
+                </select>
+                <input class="input2" type="text" placeholder="0" onkeyup="conversionInput2()">
+            </form>
+        </div>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
