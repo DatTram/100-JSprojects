@@ -1,0 +1,44 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #18bfe9;
+}
+
+
+/* Content */
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+    height: auto;
+}
+
+.center {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.btn {
+    margin: 2rem;
+}
+
+label {
+    font-size: 1.6rem;
+}
+
+.form-one,
+.form-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.line-break {
+    width: 100%;
+}
