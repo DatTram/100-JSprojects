@@ -12,8 +12,6 @@ Add a money slider
 
 Refactor code
 
-the most exciting part: adding electric vehicles api, so no need for adding cars manually
-
 # Credits
 
 https://en.wikipedia.org/wiki/Tesla_Cybertruck#/media/File:Tesla_Cybertruck_outside_unveil_modified_by_Smnt.jpg https://creativecommons.org/licenses/by-sa/4.0/ by https://www.reddit.com/user/Kruzat
