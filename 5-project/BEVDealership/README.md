@@ -12,7 +12,7 @@ Add a money slider
 
 Refactor code
 
-Add more vehicles
+the most exciting part: adding electric vehicles api, so no need for adding cars manually
 
 # Credits
 
