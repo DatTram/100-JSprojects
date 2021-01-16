@@ -20,3 +20,4 @@ Better UI/UX
 
 More options
 
+Responsive design for mobile
