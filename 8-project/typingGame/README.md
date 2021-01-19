@@ -10,6 +10,14 @@ Press "Escape" to reset.
 
 I have always wanted to do a typing game.
 
+# To be implemented
+
+Add UI (won't be responsible for mobile) 
+
+Multiplayer (but it will be taking some time)
+
+ps: right now so many of my older projects need revamping, so few more projects then focusing on older stuff.
+
 # Used APIs
 
 https://github.com/lukePeavey/quotable
