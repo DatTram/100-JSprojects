@@ -1,0 +1,97 @@
+.modal-add {
+    visibility: hidden;
+
+    position: absolute;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.842);
+
+    z-index: 1;
+}
+
+.modal-inner-add {
+
+    width: 50rem;
+    height: 40rem;
+
+    background-color: white;
+
+    transition: bottom 0.2s ease;
+}
+
+.modal-inner-add.inactive {
+    position: relative;
+
+    bottom: -10rem;  
+}
+
+.modal-inner-add.active {
+    position: relative;
+
+    bottom: 0rem;
+}
+
+.modal-input-add {
+    width: 100%;
+}
+
+.modal-input-title-add {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    width: 20rem;
+    margin-left: 2rem;
+}
+
+.modal-text-add {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2rem;
+
+    width: 100%;
+}
+
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+
+    resize: none;
+
+    width: 45rem;
+    height: 20rem;
+
+    border: 1px solid #746f6f;
+}
+
+.modal-create-add {
+    display: flex;
+    justify-content: end;
+
+    margin-top: 2rem;
+    margin-right: 2rem;
+
+}
+
+.modal-button-add {
+    font-weight: lighter;
+
+    padding: 1rem;
+    border: none;
+    background-color:  rgba(245, 238, 238, 0.726);
+    transition: border 0.5s;
+}
+
+.danger {border: 1px solid red;}
+
+.warning {
+    position: absolute;
+    left: 0;
+
+    margin-left: 2rem;
+    color: red;
+    visibility: hidden;
+}

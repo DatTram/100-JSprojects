@@ -1,0 +1,17 @@
+.modal-title {
+    font-weight: lighter;
+    margin-left: 2rem;
+}
+
+.modal-exit {
+    position: absolute;
+    right: 0;
+
+    width: 4rem;
+    height: 4rem;
+}
+
+.modal-head {
+    display: flex;
+    font-size: 1.6rem;
+}
