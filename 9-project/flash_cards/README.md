@@ -8,3 +8,5 @@ A simple flashcard without saving system yet
 1. Learn how to store flashcards in user's browser cache
 
 2. Expand flashcard system
+
+3. Finish unfinish features
