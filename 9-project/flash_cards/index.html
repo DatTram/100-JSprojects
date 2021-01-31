@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/modal-delete.css">
+    <link rel="stylesheet" href="styles/modal-add.css">
+    <link rel="stylesheet" href="styles/modal.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/flip-card.css">
+</head>
+
+<body class="flex-center">
+    <div class="modal-add flex-center">
+        <div class="modal-inner-add inactive">
+            <div class="modal-head">
+                <h2 class="modal-title">Create a flashcard</h2>
+                <svg class="modal-exit" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times"
+                    class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 352 512">
+                    <path fill="rgb(205, 206, 206)"
+                        d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+                    </path>
+                </svg>
+            </div>
+            <div class="modal-input-add">
+                <input placeholder="Title" class="modal-input-title-add" type="text">
+            </div>
+            <div class="modal-content-add">
+                <textarea class="modal-text-add" cols="30" rows="10"></textarea>
+            </div>
+            <div class="modal-create-add">
+                <p class="warning">Something</p>
+                <button class="modal-button-add" type="button">Create</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal-delete flex-center">
+        <div class="modal-inner-delete inactive">
+            <div class="modal-head">
+                <h2 class="modal-title">Remove a flashcard</h2>
+                <svg class="modal-exit" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times"
+                    class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 352 512">
+                    <path fill="rgb(205, 206, 206)"
+                        d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+                    </path>
+                </svg>
+            </div>
+            <div class="modal-content-delete">
+            </div>
+        </div>
+    </div>
+    <nav class="nav-bar">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <div class="nav-icon add">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus-circle"
+                        class="svg-inline--fa fa-plus-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="rgb(205, 206, 206)"
+                            d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z">
+                        </path>
+                    </svg>
+                </div>
+            </li>
+            <li class="nav-item">
+                <div class="nav-icon delete">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="trash"
+                        class="svg-inline--fa fa-trash fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512">
+                        <path fill="rgb(205, 206, 206)"
+                            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z">
+                        </path>
+                    </svg>
+                </div>
+            </li>
+            <li class="nav-item">
+                <div class="nav-icon">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cog"
+                        class="svg-inline--fa fa-cog fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="rgb(205, 206, 206)"
+                            d="M487.4 315.7l-42.6-24.6c4.3-23.2 4.3-47 0-70.2l42.6-24.6c4.9-2.8 7.1-8.6 5.5-14-11.1-35.6-30-67.8-54.7-94.6-3.8-4.1-10-5.1-14.8-2.3L380.8 110c-17.9-15.4-38.5-27.3-60.8-35.1V25.8c0-5.6-3.9-10.5-9.4-11.7-36.7-8.2-74.3-7.8-109.2 0-5.5 1.2-9.4 6.1-9.4 11.7V75c-22.2 7.9-42.8 19.8-60.8 35.1L88.7 85.5c-4.9-2.8-11-1.9-14.8 2.3-24.7 26.7-43.6 58.9-54.7 94.6-1.7 5.4.6 11.2 5.5 14L67.3 221c-4.3 23.2-4.3 47 0 70.2l-42.6 24.6c-4.9 2.8-7.1 8.6-5.5 14 11.1 35.6 30 67.8 54.7 94.6 3.8 4.1 10 5.1 14.8 2.3l42.6-24.6c17.9 15.4 38.5 27.3 60.8 35.1v49.2c0 5.6 3.9 10.5 9.4 11.7 36.7 8.2 74.3 7.8 109.2 0 5.5-1.2 9.4-6.1 9.4-11.7v-49.2c22.2-7.9 42.8-19.8 60.8-35.1l42.6 24.6c4.9 2.8 11 1.9 14.8-2.3 24.7-26.7 43.6-58.9 54.7-94.6 1.5-5.5-.7-11.3-5.6-14.1zM256 336c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z">
+                        </path>
+                    </svg>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="container-outer flex-center flex-direction-column">
+        <div class="container-inner">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front flex-center">
+                        <h1 class="flip-card-content">Click add button</h1>
+                    </div>
+                    <div class="flip-card-back flex-center">
+                        <h1 class="flip-card-content">Go click add button</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-box flex-center space-between">
+            <div class="prev">
+                <img src="icons/angle-left-solid.svg" alt="<">
+            </div>
+            <div class="next">
+                <img src="icons/angle-right-solid.svg" alt=">">
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/deleteFlashCard.js"></script>
+    <script src="scripts/createFlashCard.js"></script>
+    <script src="scripts/ui.js"></script>
+</body>
+
+</html>
